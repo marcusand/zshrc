@@ -145,6 +145,8 @@ alias wine="wine64"
 
 alias bfg="java -jar ~/projekte/tools/bfg-repo-cleaner/bfg-1.13.2.jar"
 
+alias vim="nvim"
+
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # set command line editing mode to vi
@@ -157,5 +159,4 @@ fi
 
 # enable reverse search
 bindkey '^R' history-incremental-search-backward
-
 
